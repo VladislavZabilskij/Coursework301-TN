@@ -1,0 +1,15 @@
+.wrapper_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.img_gallery {
+    max-width: max-content;
+    min-width: 5%;
+    min-height: max-content;
+    max-height: 40vh;
+    margin: 20px;
+}

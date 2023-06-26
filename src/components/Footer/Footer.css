@@ -1,0 +1,22 @@
+.footer {
+    background-color: var(--HF-color);
+    width: 100%;
+    height: max-content;
+    color: var(--text-color);
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+@media all and (max-width: 460px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+p{
+    margin: 20px;
+}

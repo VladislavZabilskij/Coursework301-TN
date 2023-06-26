@@ -1,0 +1,23 @@
+.wrapper_NewsD {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.imgdiv_NewsD {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-column-start: 1;
+    grid-column-end: 1; */
+}
+
+.img_NewsD {
+    width: 100%;
+    max-width: 300px;
+}
+
+.txtArea_NewsD {
+    text-align: justify;
+    text-indent: var(--default-text-indent);
+}
