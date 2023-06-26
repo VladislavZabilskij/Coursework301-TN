@@ -10,18 +10,18 @@ const CarouselImage = () => {
             <div  className="wrapper_Carousel">
                 <Carousel slide={false}>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={Glory} alt="image" />
+                        <img className="d-block w-100" src={Glory} alt="images" />
                         <Carousel.Caption>
                             <h3>Доброго дня</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={img1} alt="image" />
+                        <img className="d-block w-100" src={img1} alt="images" />
                         <Carousel.Caption>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={img2} alt="image" />
+                        <img className="d-block w-100" src={img2} alt="images" />
                         <Carousel.Caption>
                         </Carousel.Caption>
                     </Carousel.Item>
